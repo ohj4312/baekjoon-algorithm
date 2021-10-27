@@ -7,7 +7,7 @@
 
 ### 수학
 - [BOJ 10430 - 나머지](./Baekjoon/src/Math/BJ10430.java)
-- [BOJ 4375 - 1 ](./Baekjoon/src/Math/BJ10430.java)
+- [BOJ 4375 - 1 ](./Baekjoon/src/Math/BJ4375.java)
 - [BOJ 1037 - 약수 ](./Baekjoon/src/Math/Bj1037.java)
 
 ### 브루트 포스
