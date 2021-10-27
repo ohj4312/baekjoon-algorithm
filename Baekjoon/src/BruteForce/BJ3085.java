@@ -18,9 +18,6 @@ public class BJ3085 {
 			map[i]=br.readLine().toCharArray();
 		}
 		
-		copy();
-		eat();
-		
 		char num;
 		for(int i=0;i<n;i++) {
 			for(int j=0;j<n;j++) {
@@ -31,6 +28,7 @@ public class BJ3085 {
 					num=temp[i][j];
 					temp[i][j]=temp[i][j-1];
 					temp[i][j-1]=num;
+			
 					eat();
 				}
 				
@@ -39,6 +37,7 @@ public class BJ3085 {
 					num=temp[i][j];
 					temp[i][j]=temp[i-1][j];
 					temp[i-1][j]=num;
+			
 					eat();
 				}
 				
@@ -51,7 +50,7 @@ public class BJ3085 {
 
 	private static void eat() {
 		//완탐 - 가장 큰 것 찾기
-		int csum=0,rsum=0;
+		int csum=1,rsum=1;
 		char cstore='0',rstore='0';
 		for(int i=0;i<n;i++) {
 			for(int j=0;j<n;j++) {
@@ -59,23 +58,31 @@ public class BJ3085 {
 				if(j>0&&(temp[i][j]==temp[i][j-1]||temp[i][j]==rstore)) {
 					rsum++;
 					rstore=temp[i][j];
+					if(i==n-1&&j==n-1) {
+						if(max<rsum) max=rsum;
+					}
 				}else {
 					rstore='0';
 					if(max<rsum) max=rsum;
-					rsum=0;
+					rsum=1;
 				}
 				
 				//열이 같을때
 				if(j>0&&(temp[j][i]==temp[j-1][i]||temp[j][i]==cstore)) {
 					csum++;
 					cstore=temp[j][i];
+					if(i==n-1&&j==n-1) {
+						if(max<rsum) max=rsum;
+					}
 				}else {
 					cstore='0';
 					if(max<csum) max=csum;
-					csum=0;
+					csum=1;
 				}
+				
 			}
 		}
+		
 		
 	}
 
