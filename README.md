@@ -15,6 +15,10 @@
 - [BOJ 3085 - 사탕 게임 ](./Baekjoon/src/BruteForce/BJ3085.java)
 - [BOJ 1476 - 날짜 계산 ](./Baekjoon/src/BruteForce/BJ1476.java)
 
+### 브루트 포스 - N과 M
+- [BOJ 15649 - N과 M(1) ](./Baekjoon/src/BruteForce/NAndM/BJ15649.java)
+
+
 ### 시뮬레이션과 구현
 - [BOJ 16935 - 배열돌리기3](./Baekjoon/src/simulAndimpl/BJ16935.java)
 
