@@ -18,7 +18,7 @@
 ### 브루트 포스 - N과 M
 - [BOJ 15649 - N과 M(1) ](./Baekjoon/src/BruteForce/NAndM/BJ15649.java)
 - [BOJ 15650 - N과 M(2) ](./Baekjoon/src/BruteForce/NAndM/BJ15650.java)
-
+- [BOJ 15651 - N과 M(3) ](./Baekjoon/src/BruteForce/NAndM/BJ15651.java)
 ### 시뮬레이션과 구현
 - [BOJ 16935 - 배열돌리기3](./Baekjoon/src/simulAndimpl/BJ16935.java)
 
