@@ -20,6 +20,9 @@
 - [BOJ 15650 - N과 M(2) ](./Baekjoon/src/BruteForce/NAndM/BJ15650.java)
 - [BOJ 15651 - N과 M(3) ](./Baekjoon/src/BruteForce/NAndM/BJ15651.java)
 - [BOJ 15652 - N과 M(4) ](./Baekjoon/src/BruteForce/NAndM/BJ15652.java)
+- [BOJ 15652 - N과 M(5) ](./Baekjoon/src/BruteForce/NAndM/BJ15654.java)
+- [BOJ 15652 - N과 M(6) ](./Baekjoon/src/BruteForce/NAndM/BJ15655.java)
+
 
 ### 시뮬레이션과 구현
 - [BOJ 16935 - 배열돌리기3](./Baekjoon/src/simulAndimpl/BJ16935.java)
