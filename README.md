@@ -25,6 +25,8 @@
 - [BOJ 15656 - N과 M(7) ](./Baekjoon/src/BruteForce/NAndM/BJ15656.java)
 - [BOJ 15657 - N과 M(8) ](./Baekjoon/src/BruteForce/NAndM/BJ15657.java)
 
+### 브루트 포스 - 재귀
+- [BOJ 9095 - 1,2,3 더하기 ](./Baekjoon/src/BruteForce/recursive/BJ9095.java)
 
 ### 시뮬레이션과 구현
 - [BOJ 16935 - 배열돌리기3](./Baekjoon/src/simulAndimpl/BJ16935.java)
