@@ -5,23 +5,36 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class BJ9095 {
-	private static int cnt=0;
+	private static int cnt=0,sum=0,n;
 	private static int[] arr;
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-		int n=Integer.parseInt(br.readLine());
+		n=Integer.parseInt(br.readLine());
 		
-		arr=new int[n+1];
-		if(n>=3) arr[3]=7; //111/12/21/3
-		if(n>=2) arr[2]=2;
-		if(n>=1) arr[1]=1;
-		rec(n);
+		arr=new int[n];
+		
+		for(int i=1;i<n;i++) {
+			arr[i]=i;
+		}
+		
+		rec();
+		
+		System.out.println(cnt);
+		
 	}
-	private static int rec(int n) {
-		if(n==0||n==1) return arr[n]=n;
-		if(arr[n]!=0) return arr[n];
-		else if(n/3>0) return arr[n]=rec(3)+rec(n-3);
-		else if(n/2>0) return arr[n]=rec(2)+rec(n-2);
-		else return arr[n]=rec(1)+rec(n-1);
+	private static void rec() {
+		if(sum>=n) {
+			if(sum==n) cnt++;
+			sum=0;
+			return;
+		}
+		
+		
+		for(int i=1;i<n;i++) {
+			sum+=arr[i];
+			System.out.println(sum);
+			rec();
+		}
+		
 	}
 }
