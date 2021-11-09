@@ -27,7 +27,7 @@
 
 ### 브루트 포스 - 재귀
 - [BOJ 9095 - 1,2,3 더하기 ](./Baekjoon/src/BruteForce/recursive/BJ9095.java)
-
+- [BOJ 1759 - 암호만들기 ](./Baekjoon/src/BruteForce/recursive/BJ1759.java)
 ### 시뮬레이션과 구현
 - [BOJ 16935 - 배열돌리기3](./Baekjoon/src/simulAndimpl/BJ16935.java)
 
