@@ -30,7 +30,7 @@
 - [BOJ 1759 - 암호만들기 ](./Baekjoon/src/BruteForce/recursive/BJ1759.java)
 
 ### 브루트 포스 - 순열
-- [BOJ 9095 - 1,2,3 더하기 ](./Baekjoon/src/BruteForce/perm/BJ10972.java)
+- [BOJ 10972 - 다음 순열 ](./Baekjoon/src/BruteForce/perm/BJ10972.java)
 
 ### 시뮬레이션과 구현
 - [BOJ 16935 - 배열돌리기3](./Baekjoon/src/simulAndimpl/BJ16935.java)
