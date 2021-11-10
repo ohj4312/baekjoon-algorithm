@@ -34,7 +34,14 @@
 ### 브루트 포스 - 순열
 - [BOJ 10972 - 다음 순열 ](./Baekjoon/src/BruteForce/perm/BJ10972.java)
 
+
+### 큐와 그래프
+- [BOJ 10845 - 큐 ](./Baekjoon/src/BruteForce/perm/BJ10845.java)
+
+
 ### 시뮬레이션과 구현
 - [BOJ 16935 - 배열돌리기3](./Baekjoon/src/simulAndimpl/BJ16935.java)
+
+
 
 
