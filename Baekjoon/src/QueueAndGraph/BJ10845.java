@@ -48,3 +48,55 @@ public class BJ10845 {
 		}
 	}
 }
+/*
+import java.util.*;
+import java.io.*;
+public class Main {
+	public static void main(String args[]) throws IOException {
+		BufferedReader br= new BufferedReader(new InputStreamReader(System.in));
+		int num=Integer.parseInt(br.readLine());
+		LinkedList <Integer> que= new LinkedList<>();
+		StringTokenizer st;
+		StringBuilder sb= new StringBuilder();
+		for(int i=0; i<num; i++) {
+			String input= br.readLine();
+			st=new StringTokenizer(input , " ");
+			String s=st.nextToken();
+	
+	
+			
+			 
+			switch(s) {
+			case "push":
+				que.add(Integer.parseInt(st.nextToken()));
+				break;
+			case "pop":
+				if(que.size()==0) {sb.append("-1").append("\n"); break;}
+				sb.append(que.poll()).append("\n"); break;
+		
+			case "size":
+				sb.append(que.size()).append("\n");
+				break;
+				
+			case "empty":
+				if(que.isEmpty()) sb.append("1").append("\n");
+				else sb.append("0").append("\n");
+				break;
+				
+			case "front":
+				if(que.size()==0) {sb.append("-1").append("\n"); break;}
+				sb.append(que.get(0)).append("\n");
+				break;
+				
+			case "back":
+				if(que.size()==0) {sb.append("-1").append("\n"); break;}
+				sb.append(que.get(que.size()-1)).append("\n");
+				break;
+				
+				
+			}
+		}
+		System.out.println(sb);
+	}
+}
+*/
