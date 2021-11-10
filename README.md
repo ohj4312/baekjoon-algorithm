@@ -28,6 +28,8 @@
 ### 브루트 포스 - 재귀
 - [BOJ 9095 - 1,2,3 더하기 ](./Baekjoon/src/BruteForce/recursive/BJ9095.java)
 - [BOJ 1759 - 암호만들기 ](./Baekjoon/src/BruteForce/recursive/BJ1759.java)
+- [BOJ 14501 - 퇴사 ](./Baekjoon/src/BruteForce/recursive/BJ14501.java)
+
 
 ### 브루트 포스 - 순열
 - [BOJ 10972 - 다음 순열 ](./Baekjoon/src/BruteForce/perm/BJ10972.java)
