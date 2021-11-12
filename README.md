@@ -36,8 +36,11 @@
 
 
 ### 큐와 그래프
-- [BOJ 10845 - 큐 ](./Baekjoon/src/BruteForce/perm/BJ10845.java)
+- [BOJ 10845 - 큐 ](./Baekjoon/src/perm/BJ10845.java)
 
+
+### BFS
+- [BOJ 1697 - 숨바꼭질 ](./Baekjoon/src/BFS/BJ1697.java)
 
 ### 시뮬레이션과 구현
 - [BOJ 16935 - 배열돌리기3](./Baekjoon/src/simulAndimpl/BJ16935.java)
