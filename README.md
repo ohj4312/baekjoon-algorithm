@@ -24,6 +24,7 @@
 - [BOJ 15655 - N과 M(6) ](./Baekjoon/src/BruteForce/NAndM/BJ15655.java)
 - [BOJ 15656 - N과 M(7) ](./Baekjoon/src/BruteForce/NAndM/BJ15656.java)
 - [BOJ 15657 - N과 M(8) ](./Baekjoon/src/BruteForce/NAndM/BJ15657.java)
+- [BOJ 18290 - NM과 K ](./Baekjoon/src/BruteForce/NAndM/BJ18290.java)
 
 ### 브루트 포스 - 재귀
 - [BOJ 9095 - 1,2,3 더하기 ](./Baekjoon/src/BruteForce/recursive/BJ9095.java)
